@@ -1,7 +1,7 @@
 installation:
   kubernetesProvider: "EKS"
-    imagePullSecrets:
-      tigera-pull-secret: |
+imagePullSecrets:
+  tigera-pull-secret: |
             {
               "auths": {
                 "quay.io": {
